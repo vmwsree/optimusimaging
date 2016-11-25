@@ -17,12 +17,12 @@
 
 {% block body %}
   <!-- end header -->
-  <section class="portfolio-grids-space section-padding text-center">
+  <section class="{{ this.portfolio_style }} section-padding text-center">
     <div class="row">
       <ul>
       	{% for image in this.attachments.images %}
-       <li>
-          <figure class="wow fadeInUp" data-wow-delay="0.2s"><a href="{{image|url}}" class="litebox"><img src="{{image.thumbnail(320)|url}}" alt="Image"></a></figure>
+        <li class="wow fadeInUp" data-wow-delay="0.2s">
+          <figure><a href="{{image|url}}" class="litebox"><img src="{{image.thumbnail(320)|url}}" alt="Image"></a></figure>
         </li>
 
         <!-- end work -->

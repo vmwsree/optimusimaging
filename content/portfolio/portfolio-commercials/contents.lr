@@ -1,4 +1,4 @@
-_model: portfilio-commercials
+_model: portfolio-commercials
 ---
 title: Portfolio - Commercials
 ---
@@ -6,4 +6,4 @@ _template: portfolio-commercials.html
 ---
 description: Gallery
 ---
-portfolio_style: portfolio-masonry
+portfolio_style: portfolio-grids-nospace

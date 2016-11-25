@@ -1,12 +1,10 @@
 // Google maps pin tooltip	
 	var markers = [
     	{
-       		"lat": '76.3244984',
-           "lng": '10.0352975',
+       		"lat": '10.0352975',
+           "lng": '76.3244984',
 		  
-			"description": 'OPTIMUS IMAGING <br/><a href="http://www.optimusimaging.com/" style="color:#ef3c3c; font-weight:800;">MNRA 42A,Cross Road 4 Maveli Nagar,Pipeline Road, Ernakulam- 21
-
-</a>'
+			"description": 'OPTIMUS IMAGING <br/><a href="http://www.optimusimaging.com/" style="color:#ef3c3c; font-weight:800;">MNRA 42A,Cross Road 4 Maveli Nagar,Pipeline Road, Ernakulam- 21</a>'
         }
 	];
 	
@@ -15,7 +13,7 @@
 	window.onload = function () {
 		var mapOptions = {
 			center: new google.maps.LatLng(markers[0].lat, markers[0].lng),
-        	zoom: 12,
+        	zoom: 15,
 			flat: true,
 			scrollwheel:false,
 			panControl:false,
@@ -35,7 +33,7 @@
 			var marker = new google.maps.Marker({
            	position: myLatlng,
            	map: map,
-        	icon: 'images/map-pin.png',
+        	icon: 'http://themezinho.net/mooca/images/map-pin.png',
            	title: data.title
            	});
 			(function (marker, data) {

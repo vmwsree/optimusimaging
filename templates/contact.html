@@ -1,5 +1,24 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
+
+{% block revslider %}<div class="int-header background-1 section-overlay" data-stellar-background-ratio="0.5">
+      <div class="table">
+        <div class="inner">
+          <h1>CONTACT</h1>
+          <h5>OUR STUDIO & CONTACT INFORMATION</h5>
+        </div>
+        <!-- end inner --> 
+      </div>
+      <!-- end table --> 
+    </div>
+    <!-- end int-header -->
+    <nav>
+      <div class="col-xs-12"> <img src="" alt="Image" class="logo">
+        <button type="button" class="toggle-menu menu-right push-body menu-button" data-toggle="collapse" data-target="#side-menu"> <span class="menu"><span>MENU</span></span></button>
+      </div>
+      <!-- end col-12 --> 
+    </nav>
+    <!-- end nav --> {% endblock %}
 {% block body %}
 <section class="contact-info section-padding">
     <div class="container">
@@ -7,9 +26,7 @@
         <div class="col-xs-12 text-center">
           <h4>OUR ADDRESS</h4>
           <address>
-          Line Avenue 12 Street, D Block<br>
-          NYC - New York<br>
-          t: +90 2 2372 4217
+          {{ this.address }}
           </address>
           <!-- end address -->
           <div id="map"></div>

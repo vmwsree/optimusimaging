@@ -8,6 +8,6 @@ install: "pip install git+https://github.com/singingwolfboy/lektor.git@fix-ghpag
 script: "lektor build"
 deploy:
   provider: script
-  script: "lektor deploy ghpages-https"
+  script: "lektor deploy"
   on:
     branch: lektor

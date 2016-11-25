@@ -1,0 +1,54 @@
+_model: portfolio
+---
+title: Portfolio
+---
+body:
+
+<section class="works section-padding text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>SHOWCASE</h2>
+        <p></p>
+      </div>
+      <!-- end col-12 -->
+      <div class="col-xs-12 spacing">
+        <ul>
+          <li style="width:50%">
+            <figure class="wow fadeInUp" data-wow-delay="0.2s"><img src="/images/1.jpg" alt="Image">
+              <figcaption class="thumb-overlay">
+                <div class="table">
+                  <div class="inner"><a href="/portfolio/events/" target="_blank" >
+                    <h3>EVENTS PHOTOGRAPHY</h3>
+                    <span></span>See concepts</a> </div>
+                </div>
+              </figcaption>
+            </figure>
+          </li>
+          <!-- end work -->
+          <li style="width:50%">
+            <figure class="wow fadeInUp" data-wow-delay="0.4s"><img src="/images/2.jpg" alt="Image">
+              <figcaption class="thumb-overlay">
+                <div class="table">
+                  <div class="inner">
+                    <h3>COMMERCIAL SHOOTS</h3>
+                    <a href="images/2.jpg" class=""><span></span>See concepts</a> </div>
+                </div>
+              </figcaption>
+            </figure>
+          </li>
+          <!-- end work -->
+         
+          <!-- end work -->
+          
+          <!-- end work -->
+        </ul>
+        <!-- end ul --> 
+      </div>
+      <!-- end col-12 --> 
+    </div>
+    <!-- end row --> 
+  </div>
+  <!-- end container --> 
+</section>
+

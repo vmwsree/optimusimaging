@@ -2,7 +2,7 @@
 
 @Author: Themezinho
 @URL: http://www.themezinho.net
- 
+
 This file contains the styling for the actual theme, this
 is the file you need to edit to change the look of the
 theme.
@@ -14,7 +14,7 @@ theme.
 		1.1 Elements of body
 		1.2 Google Fonts (Import)
 		1.3 Body
-		1.4 Site tools 
+		1.4 Site tools
 		1.5 Spacing
 		1.6 Form elements
 		1.7 Sections
@@ -23,101 +23,101 @@ theme.
 		2.0 Transition
 		2.1 Frame borders
 		2.2 Background images
-		
-		
+
+
 	2. Header
 		2.1 Elements of header
 		2.2 Navigation
 		2.3 Menu Button (Hamburger Menu)
-		
-		
+
+
 	3. Internal pages header
 		3.1 Elements of int-header
-		
-		
+
+
 	4. Home Horizontal Image
 		4.1 Elements of HR
-		4.2 Links  
-		4.3 Images		
-		
-		
+		4.2 Links
+		4.3 Images
+
+
 	5. Site Header Video Background
 		5.1 Elements of Video BG
 		5.2 Video
 		5.3 Video Overlay
 		5.4 Headlines
-	
-		
+
+
 	6. Home 404
 		6.1 Header 404
-		
-		
+
+
 	7. Home Video
 		7.1 Elements of video
 		7.2 Iframe
 		7.3 Overlay
 		7.4 Headlines
-		
-		
+
+
 	8. Home Carousel
 		8.1 Elements of carousel
 		8.2 Controls
 		8.3 Images
-		
-		
+
+
 	9. About Us
 		9.1 Elements of about us
 		9.2 About us sides
 		9.3 About us headlines
 		9.4 About us image
-		
-		
+
+
 	10. Our Members
 		10.1 Elements of team
 		10.2 Member box
 		10.3 Member info
 		10.4 Member images
 		10.5 Headlines
-		
-		
+
+
 	11. Services
 		11.1 Elements of services
 		11.2 Icons
 		11.3 Headlines
 		11.4 Paragraphs
-		
-		
+
+
 	12. Prices
 		11.1 Elements of prices
 		11.2 Price Table
 		11.3 Popular (with star)
 		11.4 Links
-		
-		
+
+
 	13. Intro
 		13.1 Elements of intro
 		13.2 Headlines
 		13.3 Signature
-		
-		
+
+
 	14. Clients
 		14.1 Elements of clients
 		14.2 Figure hover
 		14.3 Logos
- 		
-		
+
+
 	15. Logos
 		15.1 Elements of logos
 		15.2 Logos hover
 		15.3 Logos transition
-		
-		
+
+
 	16. Quote
 		16.1 Elements of quote
 		16.2 Icons
 		16.3 Headlines
-		
-		
+
+
 	17. Blog
 		17.1 Elements of blog
 		17.2 Pagination
@@ -126,54 +126,54 @@ theme.
 		17.5 Social media
 		17.6 Gallery thumbs
 		17.7 Search
-		
-	
+
+
 	18. Works
 		18.1 Elements of works
 		18.2 Headlines
 		18.3 Paragraphs
 		18.4 Figure (images)
 		18.5 Figure overlay
-		
-		
-	19. Portfolio Masonry 
+
+
+	19. Portfolio Masonry
 		19.1 Elements of masonry
 		19.2 Figure (images)
 		19.3 Figure hover
-		
-		
+
+
 	20. Portfolio Grid Space
 		20.1 Elements of portfolio
 		20.2 Figure (images)
 		20.3 Figure hover
-		
-		
+
+
 	21. Portfolio Grid No-space
 		21.1 Elements of portfolio
 		21.2 Figure (images)
 		21.3 Figure hover
-		
-		
+
+
 	22. Portfolio Carousel
 		22.1 Elements of carousel
 		22.2 Figure (images)
-		22.3 Controls 
-		
-		
+		22.3 Controls
+
+
 	23. Portfolio Horizontal Scroll
 		23.1 Elements of HR
 		23.2 Figure (images)
 		23.3 Customized scrollbar
-		
-		
+
+
 	24. Contact
 		24.1 Elements of contact
 		24.2 Headlines
 		24.3 Form
 		24.4 Fields
 		24.5 Google Map
-		
-		
+
+
 	25. Footer
 		25.1 Elements of footer
 		25.2 Address
@@ -181,8 +181,8 @@ theme.
 		25.4 Copyright
 		25.5 Content
 		25.6 Placeholder
-		
-		
+
+
 	26. Responsove Fixes
 		25.1 Mobile fixes
 		25.2 Tablet fixes
@@ -191,8 +191,8 @@ theme.
 
 
 /* GOOGLE FONTS */
-@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700&subset=latin,latin-ext);
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 
 
@@ -708,7 +708,7 @@ footer address{ width:100%; float:left;}
 footer address .title{ display:block; font-family:'Montserrat', sans-serif; font-size:19px; margin-bottom:30px;}
 footer .social-media{ width:100%; float:left; margin-top:55px; text-align:center;}
 footer .social-media li { display:inline-block; margin:0 18px;}
-footer .social-media li a{ float:left; font-size:20px;} 
+footer .social-media li a{ float:left; font-size:20px;}
 footer .copyright{ width:100%; float:left; font-size:14px; border-top:1px solid #eee; padding-top:40px; margin-top:50px;}
 
 
@@ -723,7 +723,7 @@ footer .copyright{ width:100%; float:left; font-size:14px; border-top:1px solid 
 
 /* RESPONSIVE FIXES */
 @media only screen and (max-width: 969px), only screen and (max-device-width: 969px) {
-	
+
 
 .works ul li{ width:50%;}
 .clients figure img{ width:100%;}

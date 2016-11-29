@@ -6,4 +6,4 @@ _template: portfolio-commercials.html
 ---
 description: Gallery
 ---
-portfolio_style: portfolio-grids-nospace
+portfolio_style: portfolio-carousel

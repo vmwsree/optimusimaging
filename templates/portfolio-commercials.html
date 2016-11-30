@@ -17,14 +17,13 @@
 
 {% block body %}
   <!-- end header -->
-  <section class="portfolio-carousel section-padding text-center">
+  <section class="{{this.portfolio_style}} text-center">
     <div class="row">
-      <ul class="carousel-gallery">
-      	{% for image in this.attachments.images %}
-        <li class="item" >
-          <figure class="wow fadeInUp" data-wow-delay="0.2s"><a href="{{image|url}}" class="litebox"><img src="{{image.thumbnail(320)|url}}" alt="Image"></a></figure>
+      <ul>
+        {% for image in this.attachments.images %}
+        <li class="wow fadeInUp" data-wow-delay="0.2s">
+          <figure><a href="{{image|url}}" class="litebox"><img src="{{image.thumbnail(244,163,True)|url}}" alt="Image"></a></figure>
         </li>
-
         <!-- end work -->
         {% endfor %}
         <!-- end work -->

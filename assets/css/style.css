@@ -198,7 +198,8 @@ theme.
 
 /* BODY */
 *{ outline:none !important;}
-body{ margin:0; padding:0; color:#272727; font-family: fantasy; font-size:16px;}
+body{ margin:0; padding:0; color:#272727; font-family: 'Overlock', cursive;
+; font-size:19px;}
 body, html { height:100%;}
 
 

@@ -26,7 +26,7 @@
 	padding-top: 30px;
 	text-align: center;
 }
-.cbp-spmenu .logo{ margin-top:20px; height:56px;}
+.cbp-spmenu .logo{ margin-top:20px; height:104px;}
 .navbar-fixed-top .cbp-spmenu {
 	bottom: 0;
 }
@@ -152,7 +152,7 @@
 .cbp-spmenu ul li ul li {
 	background: none;
 }
-.cbp-spmenu ul li ul li a{ font-size:13px; letter-spacing:3px; padding:5px 0;} 
+.cbp-spmenu ul li ul li a{ font-size:13px; letter-spacing:3px; padding:5px 0;}
 .cbp-spmenu .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
 	background: none; color:#272727;
 }
@@ -160,7 +160,7 @@
 .cbp-spmenu ul li > a:focus{ color:#272727;}
 .cbp-spmenu .dropdown-menu {border:none; box-shadow:none;}
 .cbp-spmenu .copyright {
-	width:100%; 
+	width:100%;
 	float:left;
 	position:absolute;
 	bottom:0;

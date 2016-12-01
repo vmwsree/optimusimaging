@@ -198,7 +198,7 @@ theme.
 
 /* BODY */
 *{ outline:none !important;}
-body{ margin:0; padding:0; color:#272727; font-family: 'Inconsolata'; font-size:15px;}
+body{ margin:0; padding:0; color:#272727; font-family: fantasy; font-size:16px;}
 body, html { height:100%;}
 
 
@@ -477,7 +477,7 @@ header .link{ display:inline-block; color:#fff; border-bottom:2px solid #fff; pa
 
 /* INTRO */
 .intro{ width:100%; float:left; background:#f8f8f8;}
-.intro h2{font-family: 'Montserrat', sans-serif; font-weight:700; font-size:60px; margin-bottom:50px;}
+.intro h2{font-family: 'Montserrat', sans-serif; font-weight:700; font-size:47px; margin-bottom:50px;}
 .intro h5{ margin-bottom:100px; position:relative;}
 .intro h5:after{content:''; width:40px; height:2px; background:#27292c; position:absolute; left:50%; margin-left:-20px; bottom:-30px;}
 .intro .signature{ height:100px; margin-top:40px;}

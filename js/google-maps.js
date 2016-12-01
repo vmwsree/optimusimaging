@@ -1,8 +1,8 @@
 // Google maps pin tooltip
 	var markers = [
     	{
-       		"lat": '10.0352975',
-           "lng": '76.3244984',
+       		"lat": '10.035371',
+           "lng": '76.326348',
 
 			"description": 'OPTIMUS IMAGING <br/><a href="http://www.optimusimaging.com/" style="color:#ef3c3c; font-weight:800;">MNRA 42A,Cross Road 4 Maveli Nagar,Pipeline Road, Ernakulam- 21</a>'
         }

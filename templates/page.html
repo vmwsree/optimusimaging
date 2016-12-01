@@ -72,7 +72,7 @@
            {% for page in root.children recursive %}
           <li >
              {% set image = page.attachments.images.first() %}
-            <figure class="wow fadeInUp" data-wow-delay="0.2s"><img width=363 height=auto src="{% if image %}{{ image|url }}{% endif %}" alt="Image">
+            <figure class="wow fadeInUp" data-wow-delay="0.2s"><img src="{% if image %}{{ image.thumbnail(363,363,True)|url }}{% endif %}" alt="Image">
               <figcaption class="thumb-overlay">
                 <div class="table">
                   <div class="inner"><a href="{{page|url}}" target="_blank" >

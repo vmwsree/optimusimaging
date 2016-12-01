@@ -84,6 +84,8 @@
       <ul class="dropdown-menu" role="menu">
         <li><a href="../../portfolio/portfolio-commercials/" class="transition">COMMERCIAL</a></li>
         <li><a href="../../portfolio/portfolio-events/" class="transition">EVENTS</a></li>
+        <li><a target="_blank" href="https://www.youtube.com/channel/UCzlJHjCiVd4G-_Jb_zQ1lzQ" class="transition">VIDEOS</a></li>
+
       </ul>
       <!-- end dropdown -->
     </li>
@@ -493,5 +495,37 @@ Ernakulam- 22
 <script src="../../js/jquery.themepunch.revolution.js?h=4da730a2" type='text/javascript' ></script>
 <script src="../../js/settings.js?h=12aa713b" type='text/javascript' ></script>
 <script src="../../js/scripts.js?h=15423fa9"></script>
+<script language=JavaScript>
+//Disable right mouse click Script
+
+var message="Right Click Disabled!";
+
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return false;
+ }
+}
+
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}
+}
+}
+
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+
+document.oncontextmenu=new Function("alert(message);return false")
+
+</script>
 </body>
 </html>

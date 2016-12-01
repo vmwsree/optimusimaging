@@ -4,7 +4,7 @@
        		"lat": '10.035371',
            "lng": '76.326348',
 
-			"description": 'OPTIMUS IMAGING <br/><a href="http://www.optimusimaging.com/" style="color:#ef3c3c; font-weight:800;">MNRA 42A,Cross Road 4 Maveli Nagar,Pipeline Road, Ernakulam- 21</a>'
+			"description": 'OPTIMUS IMAGING <br/><a href="https://g.co/kgs/rl60w1" style="color:#ef3c3c; font-weight:800;">MNRA 42A,Cross Road 4 Maveli Nagar,Pipeline Road, Ernakulam- 21</a>'
         }
 	];
 

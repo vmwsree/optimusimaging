@@ -1,8 +1,8 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block revslider %}
-    <div class="int-header background-3 section-overlay" data-stellar-background-ratio="0.5" >
-      <div style="background:url({{this.attachments.images.first()|url}});background-size: cover"  class="table">
+    <div style="background:url({{this.attachments.images.first()|url}});background-size: cover" class="int-header background-3 section-overlay" data-stellar-background-ratio="0.5">
+      <div class="table">
         <div class="inner">
           <h1>{{this.title}}</h1>
           <h5>{{this.description}}</h5>
@@ -11,7 +11,6 @@
       </div>
       <!-- end table -->
     </div>
-    <!-- end int-header -->
 
 {% endblock %}
 {% block body %}

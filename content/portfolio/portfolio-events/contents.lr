@@ -1,7 +1,9 @@
 _model: portfolio-events
 ---
-title: Portfolio - Events
+title: Events
 ---
 description: Gallery
 ---
-portfolio_style: portfolio-grids-nospace 
+portfolio_style:
+
+portfolio-grids-nospace 

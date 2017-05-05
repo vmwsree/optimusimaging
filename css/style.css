@@ -706,9 +706,9 @@ footer.no-padding{ padding-left:0 !important; padding-right:0 !important;}
 footer.static{position:static; padding:0;}
 footer .content{ width:100%; float:left; background:#f8f8f8; padding-top:80px; padding-bottom:40px;}
 footer address{ width:100%; float:left;}
-footer address .title{ display:block; font-family:'Montserrat', sans-serif; font-size:24px; margin-bottom:30px;}
+footer address .title{ display:block; font-family:'Montserrat', sans-serif; font-size:24px; Color:#008000; margin-bottom:30px;}
 footer .social-media{ width:100%; float:left; margin-top:55px; text-align:center;}
-footer .social-media li { display:inline-block; margin:0 18px;}
+footer .social-media li { display:inline-block; margin:0 40px;}
 footer .social-media li a{ float:left; font-size:50x;}
 footer .copyright{ width:100%; float:left; font-size:14px; border-top:1px solid #eee; padding-top:40px; margin-top:50px;}
 

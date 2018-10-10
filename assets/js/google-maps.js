@@ -1,10 +1,10 @@
 // Google maps pin tooltip
 	var markers = [
     	{
-       		"lat": '10.035371',
-           "lng": '76.326348',
+       		"lat": '10.030784',
+           "lng": '76.320767',
 
-			"description": 'OPTIMUS IMAGING <br/><a href="https://goo.gl/maps/SFyNhZSfdVT2" style="color:#ef3c3c; font-weight:800;">MNRA 42A,Cross Road 4 Maveli Nagar,Pipeline Road, Ernakulam- 21</a>'
+			"description": 'OPTIMUS IMAGING <br/><a href="https://goo.gl/maps/SFyNhZSfdVT2" style="color:#ef3c3c; font-weight:800;">1st Floor, URA135, Near Unichira Jn. Edapally - Pookattupady Road. Ernakulam, Pincode - 682033</a>'
         }
 	];
 
